@@ -75,7 +75,11 @@
           "nav-link">Shows </a><a data-w-id=
           "821d551c-1d8b-ab42-ef5e-9942a2496f4b" href="/contact"
           class="nav-link">Contact</a>
-          <div data-node-type="commerce-cart-wrapper"
+         
+
+<!---CART
+
+ <div data-node-type="commerce-cart-wrapper"
           data-open-product="" data-wf-cart-type="modal"
           data-wf-cart-query=
           "query Dynamo2 { database { id commerceOrder { comment extraItems { name pluginId pluginName price { value unit decimalValue string } } id startedOn statusFlags { hasDownloads hasSubscription isFreeOrder requiresShipping } subtotal { value unit decimalValue string } total { value unit decimalValue string } updatedOn userItems { count sku { f__draft_0ht f__archived_0ht f_main_image_4dr { url file { size origFileName createdOn updatedOn mimeType width height variants { origFileName quality height width s3Url error size } } alt } f_price_ { value unit decimalValue string } f_sku_values_3dr { property { id } value { id } } id } product { id f__draft_0ht f__archived_0ht f_name_ f_sku_properties_3dr { id name enum { id name slug } } } id rowTotal { value unit decimalValue string } subscriptionFrequency subscriptionInterval subscriptionTrial } userItemsCount } } site { id commerce { businessAddress { country } defaultCountry defaultCurrency quickCheckoutEnabled } } }"
@@ -171,7 +175,9 @@
                           <div>
                             Remove
                           </div></a>
-                        </div><input type="text" data-wf-bindings=
+                        </div>
+--->
+<input type="text" data-wf-bindings=
                         "%5B%7B%22value%22%3A%7B%22type%22%3A%22Number%22%2C%22filter%22%3A%7B%22type%22%3A%22numberPrecision%22%2C%22params%22%3A%5B%220%22%2C%22numberPrecision%22%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.count%22%7D%7D%2C%7B%22data-commerce-sku-id%22%3A%7B%22type%22%3A%22ItemRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.id%22%7D%7D%5D"
                         class="w-commerce-commercecartquantity"
                         required="" pattern="^[0-9]+$" inputmode=
@@ -357,7 +363,7 @@
           <div role="list" class="w-dyn-items">
             <div role="listitem" class="w-dyn-item">
               <a data-w-id="83c72b00-b8c4-1177-15ae-1ed3ebfd8068"
-              href="/press-kit/gee-tizzly" target="_blank" class=
+              href="/press-kit/" target="_blank" class=
               "nav-link mobile-nav-link">Press Kit </a>
             </div>
           </div>
@@ -414,7 +420,7 @@
       <div role="list" class="w-dyn-items">
         <div role="listitem" class="featured-release w-dyn-item">
           <div style=
-          "background-image:url("https://assets.website-files.com/5e2128fe55fb42829c9b54d7/5e25f7398b1cb8a1e5286bab_anastase-maragos-wH0anA_G7sw-unsplash%20(1).jpg")"
+          "background-image:url("/images/inertia-cover.jpg")"
           class="hero-parallax-background">
             <div class="parallax-overlay"></div>
           </div>
